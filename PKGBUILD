@@ -1,11 +1,11 @@
 # Maintainer: SamuelNihBos <samuelnihbos@disroot.org>
 pkgname=dmenu-samuel
-pkgver=1.0.r22.8695f74
+pkgver=5.0.r.
 pkgrel=1
 epoch=
 pkgdesc="Patched dmenu for my daily needs."
 arch=(x86_64)
-url="https://www.github.com/samuelnihbos/dmenu.git"
+url="https://www.github.com/samuelnihbos/dmenu-samuel.git"
 license=('MIT')
 groups=()
 depends=(ttf-hack ttf-joypixels ttf-iosevka-nerd)
@@ -40,5 +40,5 @@ package() {
     cp -rf * ${pkgdir}/opt/${pkgname}
     make PREFIX=/usr DESTDIR="${pkgdir}" install
     install -Dm644 LICENSE "${pkgdir}/usr/share/licenses/${pkgname}/LICENSE"
-    install -Dm644 README.org "${pkgdir}/usr/share/doc/${pkgname}/README.md"
+    install -Dm644 README.md "${pkgdir}/usr/share/doc/${pkgname}/README.md"
 }
