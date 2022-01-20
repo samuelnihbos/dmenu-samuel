@@ -1,6 +1,6 @@
 # Maintainer: SamuelNihBos <samuelnihbos@disroot.org>
 pkgname=dmenu-samuel
-pkgver=5.0.r.
+pkgver=5.1.r.
 pkgrel=1
 epoch=
 pkgdesc="Patched dmenu for my daily needs."
