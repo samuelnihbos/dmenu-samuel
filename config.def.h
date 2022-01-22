@@ -13,6 +13,8 @@ static const char *prompt      = NULL;      /* -p  option; prompt to the left of
  * SELECT YOUR COLOR SCHEME
  * Currently available themes are:
  * 1. uwu.h
+ * 2. forest.h
+ * 3. tokyonight.h
  */
 #include "colors/uwu.h"
 
