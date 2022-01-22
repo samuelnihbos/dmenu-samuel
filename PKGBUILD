@@ -1,6 +1,6 @@
 # Maintainer: SamuelNihBos <samuelnihbos@disroot.org>
 pkgname=dmenu-samuel
-pkgver=5.1.r.
+pkgver=5.2.r.
 pkgrel=1
 epoch=
 pkgdesc="Patched dmenu for my daily needs."
@@ -26,7 +26,7 @@ validpgpkeys=()
 
 pkgver() {
 	cd "${_pkgname}"
-    printf "5.1.r%s.%s" "$(git rev-list --count HEAD)" "$(git rev-parse --short HEAD)"
+    printf "5.2.r%s.%s" "$(git rev-list --count HEAD)" "$(git rev-parse --short HEAD)"
 }
 
 build() {
